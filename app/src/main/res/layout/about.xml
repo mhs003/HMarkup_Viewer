@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#ffffffff">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Developer"
+		android:id="@+id/text_about"
+		android:layout_marginBottom="10dp"
+		android:textSize="24sp"
+		android:textColor="#03A97F"
+		android:layout_centerHorizontal="true"
+		android:gravity="center_horizontal"
+		android:typeface="serif"/>
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="140dp"
+		android:id="@+id/a"
+		android:gravity="center"
+		android:background="#FFFFFF"
+		android:src="@drawable/dvl"
+		android:layout_below="@+id/text_about"
+		android:padding="10dp"
+		android:scaleType="fitCenter"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/a">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Monzurul Hasan"
+			android:id="@+id/text_name"
+			android:layout_marginBottom="15dp"
+			android:textSize="20sp"
+			android:textColor="#000000"
+			android:layout_centerHorizontal="true"
+			android:gravity="center_horizontal"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Study"
+			android:id="@+id/text_studyN"
+			android:layout_below="@+id/text_name"
+			android:layout_marginBottom="15dp"
+			android:textSize="20sp"
+			android:textColor="#FF0F00"
+			android:layout_centerHorizontal="true"
+			android:gravity="center_horizontal"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Diploma-in-engineering"
+			android:id="@+id/text_so"
+			android:layout_below="@+id/text_studyN"
+			android:layout_marginBottom="5dp"
+			android:textSize="13sp"
+			android:textColor="#000000"
+			android:layout_centerHorizontal="true"
+			android:gravity="center_horizontal"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Computer Technology, 1st year"
+			android:id="@+id/text_st"
+			android:layout_below="@+id/text_so"
+			android:layout_marginBottom="5dp"
+			android:textSize="13sp"
+			android:textColor="#000000"
+			android:layout_centerHorizontal="true"
+			android:gravity="center_horizontal"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Tangail Polytechnic Institute, Tangail"
+			android:id="@+id/text_stt"
+			android:layout_below="@+id/text_st"
+			android:layout_marginBottom="5dp"
+			android:textSize="13sp"
+			android:textColor="#000000"
+			android:layout_centerHorizontal="true"
+			android:gravity="center_horizontal"
+			android:typeface="serif"/>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginTop="30dp"
+			android:text="My facebook profile"
+			android:background="#03A97F"
+			android:id="@+id/btn_my_fb"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_below="@+id/text_stt"
+			android:layout_centerHorizontal="true"
+			android:textColor="#FFFFFF"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+

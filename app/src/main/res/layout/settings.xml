@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Application Settings"
+		android:layout_margin="7dp"
+		android:layout_marginLeft="18dp"
+		android:textColor="#FF00FC"
+		android:textSize="20dp"
+		android:textStyle="bold"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dp"
+		android:background="#F7F7F7"
+		android:orientation="vertical">
+
+		<Switch
+			android:textSize="16dp"
+			android:textColor="#000000"
+			android:id="@+id/s_javascript"
+			android:background="#FFFFFF"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginTop="2.0dip"
+			android:layout_marginBottom="2.0dip"
+			android:text="Allow JavaScript"/>
+
+		<Switch
+			android:textSize="16dp"
+			android:textColor="#000000"
+			android:id="@+id/s_viewport"
+			android:background="#FFFFFF"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="2.0dip"
+			android:text="Use Wide Viewport"/>
+
+		<Switch
+			android:textSize="16dp"
+			android:textColor="#000000"
+			android:id="@+id/s_zoom"
+			android:background="#FFFFFF"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="2.0dip"
+			android:text="Allow Zoom"/>
+
+		<Switch
+			android:textSize="16dp"
+			android:textColor="#000000"
+			android:id="@+id/s_zoomCtrl"
+			android:background="#FFFFFF"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="2.0dip"
+			android:text="Use Zoom Controller"/>
+
+		<Switch
+			android:textSize="16dp"
+			android:textColor="#000000"
+			android:id="@+id/s_blockn"
+			android:background="#FFFFFF"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="2.0dip"
+			android:text="Set Block Network Loads"/>
+
+		<Switch
+			android:textSize="16dp"
+			android:textColor="#000000"
+			android:id="@+id/s_enc"
+			android:background="#FFFFFF"
+			android:padding="8.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="50dp"
+			android:layout_marginBottom="2.0dip"
+			android:text="Set 'utf-8' text encoding"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
